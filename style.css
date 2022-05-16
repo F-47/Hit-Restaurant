@@ -1,0 +1,99 @@
+/* Start Container  */
+.container {
+    padding-inline:15px;
+    margin-inline: auto;
+}
+/* End Container  */
+
+/* Start NavBar  */
+.nav-bar{
+    background-color: #f6f6f6;
+}
+
+.nav-bar ul li{
+    cursor: pointer;
+}
+/* End NavBar  */
+
+/* Start Landing Page  */
+.landingPage{
+    background: url("Imgs/BG.png");
+    background-size: cover;
+    filter: contrast(130%);
+    min-height: 90vh;
+}
+
+/* End Landing Page  */
+
+/* Start Cards  */
+.content-1{
+    background-color: #323232;
+}
+
+.card .first{
+    background-color: #E30613;
+}
+.card .second{
+    background-color: #10949F;
+}
+.card .third{
+    background-color: #FF6C00;
+}
+
+.content-1 .card p{
+    min-height: 240px;
+}
+
+@media(max-width:991px){
+    .content .card p {
+        min-height: 150px;
+    }
+}
+
+/* End Cards  */
+
+/* Start Discover  */
+.discover .card-body{
+    background-color: #1d1d1b;
+}
+/* End Discover  */
+
+/* Start Policy */
+.policis{
+    background-color: #f1eeee;
+}
+/* End Policy */
+
+/* Start Career  */
+.career{
+    background-color: #f1eeee;
+}
+
+/* End Career  */
+
+/* Start Footer  */
+footer{
+    background-color: #FFFFFF;
+}
+footer p{
+    color: #00000080;
+    min-height: 50px;
+}
+footer a{
+    color: #E30613;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+footer .row ul li{
+    margin-right: 16px;
+    font-weight: bold;
+}
+
+@media(max-width:900px){
+    footer .row .list{
+        display: block !important; 
+        margin-bottom: 10px;
+    }
+}
+/* End Footer  */
